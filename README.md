@@ -6,3 +6,5 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 To make k8s working in local
 Make this change in /etc/hosts file
 127.0.0.1 posts.com
+
+Application is available on http://posts.com/
