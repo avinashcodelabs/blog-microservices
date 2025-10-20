@@ -9,3 +9,9 @@ Make this change in /etc/hosts file
 
 Application is available on http://posts.com/
 ![app](./app.png)
+
+To install skaffold tool skaffold.dev
+brew install skaffold
+
+To start the app use below code:
+skaffold dev
