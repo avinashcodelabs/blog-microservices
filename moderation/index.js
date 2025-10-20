@@ -11,7 +11,7 @@ app.post("/events", async (req, res) => {
 
     // send moderated comment to event-bus
     const { id, postId, content } = data;
-    await axios.post("http://localhost:4005/events", {
+    await axios.post("http://event-bus-srv:4005/events", {
       type: "CommentModerated",
       data: {
         id,
