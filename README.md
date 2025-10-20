@@ -8,3 +8,4 @@ Make this change in /etc/hosts file
 127.0.0.1 posts.com
 
 Application is available on http://posts.com/
+![app](./app.png)
